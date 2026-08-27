@@ -1,2 +1,1 @@
-![JavaScript](https://img.shields.io/badge/Aula%20-%20FundamentoNodeJs
-)
+![Static Badge](https://img.shields.io/badge/aula-fundamentos_node_js-brightblue)
