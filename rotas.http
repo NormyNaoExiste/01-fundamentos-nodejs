@@ -1,0 +1,35 @@
+# home
+GET http://localhost:3000/
+
+###
+# Lista de usuarios
+
+GET http://localhost:3000/users
+
+
+###
+# Criar usuario
+POST http://localhost:3000/users
+Content-Type: application/json
+
+{
+    "nome":"marcos",
+    "email":"marcola@gmail.com",
+    "telefone":1212331
+}
+
+###
+# Atualizar usuario
+PUT http://localhost:3000/users/45777
+
+###
+#deletar 
+DELETE http://localhost:3000/users/45777
+
+###
+#Pedidos
+GET http://localhost:3000/users/45777/pedido/67
+
+###
+#Produtos
+GET http://localhost:3000/users/produtos?nome=marcos&email="marcola@gmail.com"&telefone=131131
